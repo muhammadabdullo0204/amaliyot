@@ -15,29 +15,488 @@
 
     <!-- ===================boostrap======================== -->
 
-    <link rel="stylesheet" href="css boostrap/css/bootstrap.css">
-    <link rel="stylesheet" href="css boostrap/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css boostrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css boostrap/css/bootstrap.min.css"> -->
 
     <!-- ===================boostrap======================== -->
 
 
-</head>
+</head>    
+
 <body>
+
+    <div id="navbar" class="navbar">
+    
+        <div class="header">
+            <h3>LUXE</h3>
+
+            <div class="options">
+                <ul>
+                    <a href="#navbar"><li>HOME</li></a>
+                    <li onmouseover="show()" id="hotel-option">HOTEL<img class="show-2" width="15px" height="15px" src="https://img.icons8.com/external-others-inmotus-design/67/external-Bottom-basic-web-ui-elements-others-inmotus-design.png" alt="external-Bottom-basic-web-ui-elements-others-inmotus-design"/></li>
+                
+                    <li>SERVICES</li>
+                    <li>BLOG</li>
+                    <li>CONTACT</li>
+                </ul>
+                
+            </div>
+            <div id="sidebar" class="sidebar">
+                <div id="sidebar-text" class="sidebar-text">
+                
+                    <ul>
+                        <a href="#navbar"> <li>HOME</a>
+                        <li>HOTEL<img class="show-3" width="15px" height="15px" src="https://img.icons8.com/external-others-inmotus-design/67/external-Bottom-basic-web-ui-elements-others-inmotus-design.png" alt="external-Bottom-basic-web-ui-elements-others-inmotus-design"/></li> </li>
+                        <li>SERVICES</li>
+                        <li>BLOG</li>
+                        <li>CONTACT</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="menuToggle" onclick="toggle()" class="menuToggle"></div>
+        
+            
+            <ul id="a" class="a">
+                <li>Luxe Hotel</li>
+                <li>Deluxe Hotel</li>
+                <li onmouseover="show()" id="king-hotel">King Hotel  <img width="15px" height="15px" src="https://img.icons8.com/ios-glyphs/30/right--v1.png" alt="right--v1"/></li>
+                <li>Five Star Hoel</li>
+                <ul id="b" class="b">
+                    <li>Build</li>
+                    <li>Work</li>
+                    <li>Light</li>
+                    <li>Relic</li>
+                    <li>Display</li>
+                    <li>Sprint</li>
+                </ul>
+            </ul>
+        
+        </div>
+
+
+        <div class="navbar-1">
+            <h2 id="slider-text">BORA HOTEL</h2>
+            <h1 id="slider-text-1">RESERVE ROOM FOR FAMILY VACTION</h1>
+            <button>
+                Book now
+            </button>
+            <div class="sliders">
+                <div onclick="change1()" id="slider1" class="slider1"></div>
+                <div onclick="change2()" id="slider2" class="slider2"></div>
+                <div onclick="change3()" id="slider3" class="slider3"></div>
+            </div>
+        </div>
+
+
+        
+        <div class="navbar-1-footer">
+
+            
+
+
+            <div class="navbar-1-footer-2">
+                <select name="hotel" id="hotel">
+                    <option value="">Select Hotel</option>
+                    <option value="luxe-hotel">Luxe Hotel</option>
+                    <option value="Deluxe-hotel">Deluxe Hotel</option>
+                    <option value="five-hotel">Five Star Hotel</option>
+                </select>
+                
+                <h3>CHECK IN</h3>
+                <input  type="date">
+                <h3>CHECK OUT</h3>
+                <input  type="date">
+            </div>
+
+            
+         
+        </div>
+        <div class="check">
+            <h3>CHECK <br> AVAILABILTY</h3>
+
+            <img width="25px" height="25px" src="https://img.icons8.com/ios-glyphs/30/right--v1.png" alt="right--v1"/>
+        </div>
+    
+    </div>
+
+
+
+<div class="statisitics">
+
+    <div class="statisitics-container">
+
+        <div class="user-access">
+            <p class="number">20356</p>
+            <br>
+            <p  class="letter">USER ACCESS</p>
+        </div>
+
+        <div class="HOTELS">
+            <p  class="number">15501</p>
+            <br>
+            <p class="letter">HOTELS</p>
+        </div>
+
+        <div class="user-access">
+            <p  class="number"> 8200</p>
+            <br>
+            <p class="letter">TRNSACTIONS</p>
+        </div>
+
+        <div class="user-access">
+            <p  class="number">8763</p>
+            <br>
+            <p class="letter"> RATING & REVIEW</p>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="featured-hotels">
+<br><br><br><br><br><br><br>
+    <h2 style="text-align: center;" >FEATURED HOTELS</h2>
+<br><br><br><br><br><br><br>
+
+    <div class="deluxe-hotel-box">
+        <img class="hotel_feture_1" src="images/hotel_feture_1.jpg" alt="">
+        <div class="night"><p>FOR AS LOW AS</p>
+        <h3>$100/night</h3>
+        </div>
+        <div class="text">
+            <br><br><br>
+            <h2>Deluxe Hotels</h2>
+            <br><br>
+        
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, sapiente!.Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi in expedita, minus sequi quia eligendi nobis sapiente sit officiis quod necessitatibus libero aspernatur eveniet voluptate inventore laudantium corporis earum aut dolorum deserunt asperiores adipisci quisquam.</p>
+       
+            <br><br>
+            <button>BOOK NOW    <img width="15px" height="15px" src="https://img.icons8.com/ios-glyphs/30/right--v1.png" alt="right--v1"/>
+            </button>
+        </div>
+
+
+    </div>
+<br><br><br><br><br><br><br>
+
+
+    <div class="deluxe-hotel-box-2">
+
+        <div class="text-2">
+            <br><br>
+            <h2>Hotel Bora</h2>
+            <br><br>
+        
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi in expedita, min <br> us sequi quia eligendi nobis sapiente sit officiis quod necessitatibus libero asper <br> natur eveniet voluptate inventore laudan <br> tium corporis earum aut dolorum deserunt asperiores adipisci quisquam.</p>
+       
+            <br><br>
+            <button>BOOK NOW    <img width="15px" height="15px" src="https://img.icons8.com/ios-glyphs/30/right--v1.png" alt="right--v1"/>
+            </button>
+        </div>
+       <img  class="hotel_feture_2" src="images/hotel_feture_2.jpg" alt="">
+       <div class="night-2"><p>FOR AS LOW AS</p>
+        <h3>$99/night</h3>
+        </div>
+
+
+    </div>
+
+    <div class="deluxe-hotel-box-3">
+
+        <div class="text-3">
+            <br><br>
+            <h2>D'Morvie</h2>
+            <br><br>
+        
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi in expedita, min <br> us sequi quia eligendi nobis sapiente sit officiis quod necessitatibus libero asper <br> natur eveniet voluptate inventore laudan <br> tium corporis earum aut dolorum deserunt asperiores adipisci quisquam.</p>
+       
+            <br><br>
+            <button>BOOK NOW    <img width="15px" height="15px" src="https://img.icons8.com/ios-glyphs/30/right--v1.png" alt="right--v1"/>
+            </button>
+        </div>
+       <img  class="hotel_feture_3"  src="images/hotel_feture_3.jpg" alt="">
+       <div class="night-3"><p>FOR AS LOW AS</p>
+        <h3>$99/night</h3>
+        </div>
+    
+    
+    </div>
+</div>
+
+
+</div>
+
+
     
 
+<div class="hotel-facilities">
+
+    <br><br><br><br><br><br><br>
+    <h2 style="text-align: center;" >HOTEL FACILITIES</h2>
+<br><br><br><br><br><br><br>
+
+<div class="icons">
+    <div class="resturant">
+        <!-- <img class="colored-svg"  width="70px" height="70px" src="images/svg/restaurant23.svg" alt=""> -->
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="70px" height="70px" viewBox="0 0 540.201 540.201" style="enable-background:new 0 0 540.201 540.201;" xml:space="preserve">
+            <g>
+                <g>
+                    <path d="M169.467,194.102v310.136c0,8.086,2.95,15.08,8.862,20.986c5.808,5.809,12.681,8.732,20.6,8.824    c7.914-0.092,14.792-3.016,20.606-8.824c5.906-5.906,8.855-12.9,8.855-20.986V194.102c8.862-3.103,42.081-32.711,42.081-42.204    V27.161c0-4.033-1.481-7.534-4.431-10.49c-2.956-2.95-6.457-4.431-10.49-4.431c-4.045,0-7.54,1.481-10.49,4.431    c-2.956,2.962-4.431,6.457-4.431,10.49v96.99c0,4.045-1.481,7.54-4.431,10.49c-2.956,2.956-6.451,4.425-10.49,4.425    c-4.045,0-7.54-1.469-10.49-4.425c-2.95-2.95-4.431-6.451-4.431-10.49v-96.99c0-4.033-1.481-7.534-4.431-10.49    c-2.95-2.95-6.45-4.431-10.489-4.431c-4.045,0-7.54,1.481-10.49,4.431c-2.956,2.962-4.431,6.457-4.431,10.49v96.99    c0,4.045-1.481,7.54-4.431,10.49c-2.956,2.956-6.451,4.425-10.49,4.425c-4.045,0-7.54-1.469-10.49-4.425    c-2.956-2.95-4.431-6.451-4.431-10.49v-96.99c0-4.033-1.475-7.534-4.431-10.49c-2.95-2.95-6.45-4.431-10.49-4.431    c-4.045,0-7.54,1.481-10.489,4.431c-2.95,2.962-4.431,6.457-4.431,10.49v124.732C121.266,161.384,160.605,190.993,169.467,194.102    z"/>
+                    <path d="M199.308,534.08c-0.129,0-0.251-0.037-0.38-0.037c-0.128,0-0.245,0.037-0.379,0.037H199.308z"/>
+                    <path d="M389.848,540.201c-0.129,0-0.25-0.037-0.379-0.037s-0.252,0.037-0.379,0.037H389.848z"/>
+                    <path d="M326.139,268.588h33.869v241.771c0,8.084,2.949,15.08,8.855,20.984c5.812,5.809,12.686,8.734,20.605,8.826    c7.912-0.092,14.791-3.018,20.605-8.826c5.906-5.904,8.861-12.9,8.861-20.984V14.921c0-4.033-1.48-7.534-4.43-10.49    C411.549,1.481,408.055,0,404.016,0h-10.723c-20.52,0-38.084,7.308-52.693,21.916c-14.607,14.614-21.914,32.179-21.914,52.693    v186.52c0,2.02,0.74,3.77,2.215,5.245C322.369,267.848,324.119,268.588,326.139,268.588z"/>
+                </g>
+   
+            </svg>
+
+        <h3>RESTUARANT</h3>
+    </div>
+    <div class="bar">
+
+   <svg width="70px" height="70px" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 4H3.5C2.94772 4 2.5 4.44772 2.5 5C2.5 9.91828 5.56129 14 9.5 14C13.4387 14 16.5 9.91828 16.5 5C16.5 4.44772 16.0523 4 15.5 4ZM9.5 12C7.04469 12 4.90411 9.43007 4.55098 6H14.449C14.0959 9.43007 11.9553 12 9.5 12Z" fill="#000000"/>
+    <path d="M4 14.5H15C15.5523 14.5 16 14.9477 16 15.5C16 16.0523 15.5523 16.5 15 16.5H4C3.44772 16.5 3 16.0523 3 15.5C3 14.9477 3.44772 14.5 4 14.5Z" fill="#000000"/>
+    <path d="M14.0244 10.8095L14.5756 8.88698C14.8334 8.96088 15.115 9 15.4073 9C16.5144 9 17.3 8.45687 17.3 8C17.3 7.54313 16.5144 7 15.4073 7V5C17.4953 5 19.3 6.24773 19.3 8C19.3 9.75227 17.4953 11 15.4073 11C14.9297 11 14.4625 10.9351 14.0244 10.8095Z" fill="#000000"/>
+    </svg>
+   
+          <h3>BAR</h3>
+
+    </div>
+    <div class="pick-up">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="332.062px" height="332.063px" viewBox="0 0 332.062 332.063" style="enable-background:new 0 0 332.062 332.063;" xml:space="preserve">
+            <g>
+                <g>
+                    <path d="M327.061,159.368c-0.466-5.621-0.989-11.982-2.01-17.471c-0.709-3.839-2.268-8.951-7.539-8.951    c-0.528,0-1.057,0.052-1.579,0.106c-0.326,0.031-0.652,0.075-1.186,0.085c-0.011,0-0.182-0.166-0.399-0.797    c-1.548-4.433-8.041-9.947-16.367-16.691c-2.051-1.655-4.506-3.648-5.552-4.676c0.384-2.656,0.327-5.918-1.522-8.166    c-0.859-1.049-2.475-2.302-5.261-2.302c-0.409,0-0.844,0.025-1.812,0.111c-2.01,0-6.038-0.826-11.615-1.979    c-14.38-2.951-41.146-8.45-81.281-9.315c-58.438-1.157-104.359,41.014-106.252,42.79l-1.354,1.258    c-2.4,1.16-9.979,3.933-33.145,8.487c-32.858,6.47-39.126,16.938-40.31,20.986c-2.623,1.958-6.871,6.628-7.544,12.122    c-0.541,4.381-1.766,6.173-1.766,6.168L0,181.864v30.924l0.064,0.564c1.781,8.212,10.292,12.557,24.612,12.557    c4.567,0,7.993-0.466,7.86-0.466c0.199-0.011,1.965-0.041,5.025-0.104c-0.313-0.865-0.598-1.74-0.844-2.636    c-0.238-0.864-0.456-1.734-0.624-2.625c-0.404-2.098-0.631-4.257-0.631-6.473c0-19.004,15.461-34.466,34.465-34.466    s34.466,15.462,34.466,34.466c0,1.719-0.168,3.386-0.409,5.038c-0.132,0.896-0.285,1.786-0.487,2.656    c-0.207,0.901-0.424,1.792-0.699,2.667c43.038-0.922,97.802-2.139,140.216-3.205c-0.187-0.87-0.306-1.751-0.425-2.642    c-0.119-0.88-0.187-1.76-0.233-2.65c-0.031-0.622-0.093-1.232-0.093-1.864c0-19.004,15.462-34.466,34.465-34.466    c18.735,0,34,15.037,34.425,33.679c0,0.259,0.041,0.522,0.041,0.787c0,0.668-0.062,1.32-0.104,1.983    c-0.052,0.942-0.145,1.879-0.269,2.801c8.098-1.336,14.188-5.603,17.714-12.505c6.032-11.801,2.957-27.78,0.792-31.173    C328.158,172.875,327.578,165.698,327.061,159.368z"/>
+                    <path d="M43.178,225.215c4.492,10.325,14.768,17.548,26.745,17.548c12.407,0,22.975-7.762,27.19-18.677    c0.334-0.87,0.632-1.761,0.886-2.672c0.243-0.87,0.445-1.761,0.611-2.662c0.295-1.672,0.481-3.392,0.481-5.151    c0-16.109-13.054-29.164-29.163-29.164c-16.109,0-29.163,13.055-29.163,29.164c0,2.185,0.259,4.312,0.717,6.363    c0.194,0.891,0.427,1.766,0.709,2.62C42.479,223.486,42.808,224.355,43.178,225.215z"/>
+                    <path d="M248.436,220.617c3.148,12.707,14.603,22.146,28.283,22.146c14.302,0,26.176-10.309,28.661-23.892    c0.16-0.88,0.284-1.766,0.372-2.672c0.078-0.859,0.13-1.719,0.13-2.599c0-0.021,0-0.042,0-0.068    c-0.031-16.072-13.08-29.096-29.163-29.096c-16.104,0-29.163,13.055-29.163,29.164c0,0.585,0.057,1.154,0.088,1.734    c0.052,0.896,0.14,1.775,0.274,2.646C248.053,218.872,248.229,219.752,248.436,220.617z"/>
+                </g>
+     
+            </svg>        <h3>PICK-UP</h3>
+
+    </div>
+    <div class="swimming-pool">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="31.39px" height="31.39px" viewBox="0 0 31.39 31.39" style="enable-background:new 0 0 31.39 31.39;" xml:space="preserve">
+            <g>
+                <g>
+                    <path d="M27.851,21.77c-0.327,0.375-0.803,0.591-1.304,0.591c-0.498,0-0.975-0.215-1.301-0.591    c-1.033-1.184-2.543-1.933-4.244-1.933c-1.686,0-3.184,0.733-4.216,1.897c-0.328,0.37-0.797,0.581-1.292,0.581    c-0.494,0-0.965-0.21-1.294-0.58c-1.034-1.164-2.528-1.898-4.215-1.898c-1.685,0-3.183,0.733-4.214,1.898    c-0.33,0.37-0.799,0.58-1.295,0.58l0,0c-0.492,0-0.965-0.21-1.292-0.579C2.369,20.816,1.259,20.182,0,19.948v3.414    c0.27,0.134,0.519,0.315,0.728,0.552c0.951,1.07,2.316,1.684,3.749,1.684c1.432,0,2.799-0.613,3.747-1.686    c0.456-0.512,1.083-0.794,1.762-0.794c0.681,0,1.307,0.282,1.76,0.795c0.95,1.071,2.316,1.686,3.749,1.686    c1.431,0,2.798-0.615,3.746-1.686c0.455-0.513,1.082-0.795,1.763-0.795c0.926,0,1.507,0.508,1.771,0.809    c0.95,1.09,2.325,1.716,3.778,1.716c1.448-0.002,2.824-0.627,3.772-1.716c0.188-0.215,0.545-0.529,1.065-0.694v-3.319    C29.982,20.092,28.738,20.755,27.851,21.77z"/>
+                    <circle cx="24.374" cy="14.518" r="4.047"/>
+                    <path d="M15.018,21.01c0.24,0.268,0.708,0.27,0.949-0.001c1.035-1.165,2.436-1.919,3.949-2.168    c0.104-0.617,0.072-1.267-0.15-1.898c-0.117-0.331-1.404-4.654-1.404-4.654c-0.002-0.009-0.156-0.9,0.391-1.701    c0.542-0.793,1.677-1.337,3.277-1.577c0.896-0.134,1.514-0.968,1.381-1.864c-0.131-0.896-0.959-1.515-1.866-1.381    c-2.562,0.382-4.415,1.381-5.501,2.968c-1.352,1.975-0.936,4.049-0.875,4.31l0.348,1.41c-0.212,0.037-0.426,0.08-0.634,0.154    l-6.62,2.337c-1.484,0.524-2.438,1.868-2.543,3.341c1.195-0.984,2.7-1.543,4.268-1.543C11.907,18.741,13.741,19.569,15.018,21.01z    "/>
+                </g>
+       
+            </svg>          <h3>SWIMMING-POOL</h3>
+
+    </div>
+    <div class="spa">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="70px" height="70px" viewBox="0 0 945.405 945.405" style="enable-background:new 0 0 945.405 945.405;" xml:space="preserve">
+            <g>
+                <path d="M615.6,894.153H0v-57.4c11.2,8.9,25.5,14.301,40.9,14.301h532.2L615.6,894.153z M266.4,51.252c-33,0-59.8,26.8-59.8,59.8   c0,20.5,10.3,38.6,26.1,49.4c6.8-18.8,17.8-36.1,32.4-50.7s31.9-25.6,50.7-32.4C305,61.553,286.9,51.252,266.4,51.252z    M249.3,207.953c0,63,51.101,114,114,114c62.9,0,114-51.1,114-114c0-63-51.1-114-114-114c-13.399,0-26.2,2.3-38.1,6.5   c-32.3,11.5-58,37.1-69.4,69.4C251.6,181.853,249.3,194.652,249.3,207.953z M187.4,365.252c-26.7,59.2-84.9,210.5-100.9,248.6   h198.6c4.4-10.799,9.301-21.299,14.7-31.199c18.7-34.9,77.101-52.201,63.2-100.9c-0.1-0.4-0.3-0.801-0.4-1.301l52.301,49.602   c3.899,3.699,8.6,6.699,13.6,8.6l143,54.6c4.8,1.801,9.8,2.699,14.7,2.699c16.6,0,32.2-10.1,38.399-26.5   c8.101-21.199-2.5-45-23.8-53.1L474.4,468.053c-5.9-2.3-11.301-5.7-15.9-10c0,0-111.3-105.6-111.4-105.7   c-4.699-4.5-10.8-7.4-17.199-9.5c-1.5-0.5-3.101-1-4.7-1.4c-1.7-0.5-3.5-1-5.3-1.4c-27.801-7.4-58.7-13.7-87.3-11.2   c-9.4,0.8-19.7,3.2-27.7,8.7C195.7,344.152,191.9,355.353,187.4,365.252z M40.9,826.053h542.6l52,52.699c4.9,5,10.8,8.9,17.1,11.5   c6.2,2.5,12.801,3.9,19.601,3.9h221.6c28.8,0,52-23.6,51.601-52.4c-0.5-28.301-24.101-50.699-52.4-50.699H693.8L558.4,653.653   c-10.5-10.701-16.7-15.1-35.5-15.1c-32.4,0-482,0.299-482,0.299c-22.6,0-40.9,18.301-40.9,40.9v94.801v10.6   C0,807.752,18.3,826.053,40.9,826.053z M871,637.452c0-65.299-53-118.299-118.3-118.299s-118.3,53-118.3,118.299   c0,65.301,53,118.301,118.3,118.301S871,702.852,871,637.452z"/>
+            </svg>  
+          <h3>SPA</h3>
+
+    </div>
+    <div class="gym">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="482.356px" height="482.356px" viewBox="0 0 482.356 482.356" style="enable-background:new 0 0 482.356 482.356;" xml:space="preserve">
+            <g>
+                <g id="_x31_1_5_">
+                    <g>
+                        <path d="M156.777,295.579c-7.682,0-13.91,6.228-13.91,13.912c0,7.684,6.228,13.912,13.91,13.912     c7.685,0,13.914-6.229,13.914-13.912C170.69,301.806,164.462,295.579,156.777,295.579z"/>
+                        <path d="M478.281,44.204l-4.918-4.917c-5.434-5.434-14.238-5.432-19.672,0L416.77,76.209h-80.607     c-7.686,0-13.91,6.226-13.91,13.91v6.955c0,7.683,6.225,13.91,13.91,13.91h31.148l-68.475,164.374l-100.638-61.681     c-4.514-3.253-9.281-6.175-14.263-8.743l-0.299-0.155c-8.622-4.41-17.897-7.707-27.62-9.799l-20.829-49.222     c0,0,31.299-5.07,41.007-6.956c9.708-1.884,13.91-6.226,13.91-13.91v-20.285c0-7.682-6.226-13.91-13.91-13.91H44.048     c-7.683,0-13.91,6.228-13.91,13.91v27.242c0,7.684,6.227,13.91,13.91,13.91h64.971l19.778,46.744     c-60.816,1.831-109.562,51.67-109.562,112.931c0,49.639,32.014,91.757,76.512,106.935H13.91c-7.684,0-13.91,6.228-13.91,13.909     v6.956c0,7.682,6.227,13.91,13.91,13.91h372.094c7.682,0,13.91-6.229,13.91-13.91v-6.957c0-7.682-6.229-13.909-13.91-13.909     H327.08c22.525-10.38,38.168-33.118,38.168-59.553c0-23.456-12.346-43.981-30.854-55.59l0.018-0.064l-14.775-9.058l73.785-177.12     h31.414c0.098,0,0.186-0.025,0.279-0.029c3.66,0.078,7.342-1.253,10.135-4.046l43.031-43.031     C483.715,58.444,483.715,49.637,478.281,44.204z M211.259,399.471H126.64c-5.282,0-9.563-4.281-9.563-9.562     c0-5.283,4.28-9.563,9.563-9.563h16.284v-33.653c-15.093-5.622-25.847-20.148-25.847-37.2c0-21.926,17.774-39.701,39.699-39.701     c21.928,0,39.703,17.774,39.703,39.701c0,17.034-10.737,31.535-25.805,37.164v33.689h40.585c5.282,0,9.563,4.28,9.563,9.563     C220.822,395.19,216.541,399.471,211.259,399.471z"/>
+                    </g>
+                </g>
+ 
+            </svg>          <h3>GYM</h3>
+
+    </div>
+
+</div>
+<br><br><br><br><br><br><br><br>
+<div class="hotel-facilities-box">
+    <img width="700px" height="600px"  class="hotel-facilities-box-img" src="images/tab_img_1.jpg" alt="">
 
 
 
 
+</div>
+<div class="hotel-facilities-box-text">
+        
+    <p>WORLD CLASS</p>
+    <br>
+    <h1>RESTUARANT</h1>
+    <br><br>
+
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, deleniti..Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, qui earum quia, officiis impedit perferendis eos non accusantium esse consequuntur dignissimos dicta, obcaecati aut illo dolores minus debitis? Repellat dolore aut laboriosam illum architecto dignissimos a aperiam necessitatibus facere magnam nisi itaque obcaecati ducimus vero nulla ipsum eligendi error, repellendus dolores sed. Ex?</p>   
+    <br><br>
+
+    <p>  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, molestiae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, mollitia. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, impedit..Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eum ea, nam accusantium recusandae id minus? Molestias minus laboriosam deleniti quam quod ratione quae explicabo ipsam non perferendis!</p>
+
+    <br><br><br><br>
+    <p>SERVICE HOURS</p>
+    <h3><b>7:30 AM - 8:00 PM </b></h3>
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<div class="happy-customer">
+<br><br><br><br>
+    <h2>HAPPY CUSTOMER SAYS...</h2>
+    <br><br><br><br><br>
+
+    <div class="comment-box">
+    <div class="comment">
+        <p>        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, dolorum. Nemo, qui repellat necessitatibus repellendus nobis, eveniet soluta reprehenderit nam dolorum pariatur, suscipit natus nulla assumenda. Error, illum. Molestias, eveniet.
+        </p>
     
+     
+    </div>
+
+    <div class="comment">
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, dolorum. Nemo, qui repellat necessitatibus repellendus nobis, eveniet soluta reprehenderit nam dolorum pariatur, suscipit natus nulla assumenda. Error, illum. Molestias, eveniet.
+
+        </p>
+    
+       
+    </div>  
+
+      <div class="comment">
+        <p>        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, dolorum. Nemo, qui repellat necessitatibus repellendus nobis, eveniet soluta reprehenderit nam dolorum pariatur, suscipit natus nulla assumenda. Error, illum. Molestias, eveniet.
+        </p>
+    
+     
+    </div>
+</div>
+
+    <div class="comment-name">
+        <p>John Doe</p>
+        <p>Rob Smith</p>
+        <p class="jone">Jane Doe</p>
+    </div>
+
+</div>
+
+
+
+<div class="blog">
+    <br><br><br><br><br>
+    <h2>OUR BLOG</h2>
+    <br><br><br><br><br>
+
+      <div class="blog-container">
+        <div class="blog-box">
+        
+            <img width="400px" height="350px" src="images/tab_img_2.jpg" alt="">
+            <div class="data"> <p>09 <br>AUG</p>
+            </div>
+            <p class="blog-box-text">    Most Expensive Hotel
+            </p>
+
+
+        </div>
+
+        <div class="blog-box">
+        
+            <img width="400px" height="350px" src="images/tab_img_3.jpg" alt="">
+            <div class="data"> <p>09 <br>AUG</p>
+            </div>
+            <p class="blog-box-text">    1st Annniversary of Luxe Hotel
+            </p>
+
+
+        </div>
+        <div class="blog-box">
+        
+            <img width="400px" height="350px" src="images/tab_img_4.jpg" alt="">
+            <div class="data"> <p>09 <br>AUG</p>
+            </div>
+            <p class="blog-box-text">    Discover New Adventure
+            </p>
+
+
+        </div>
+    </div>
+</div>
 
 
 
 
+ <footer>
+    <div class="footer-container">
+
+        <div class="footer-box">
+
+            <p>@2016 Free HTML5 Template</p>
+            <p>All Rights Resserved</p>
+            <p class="freehtml"> clDesigned by</p>
+            <p  class="unsplash">Demo Images: </p>
+        </div>
+
+        <div class="footer-box-2">
+            <p>Company</p>
+            <br>
+            <div class="about-us">
+                <p>About Us</p>
+                <p>Hotels</p>
+                <p>Customer</p>
+                <p>Care</p>
+                <p>Contact US</p>
+            </div>
+        </div>
 
 
 
+        <div class="footer-box-3">
+            <p>Our Facilities</p>
+            <br>
+            <div class="about-us">
+                <p>Resturant</p>
+                <p>Bars</p>
+                <p>Pick-up</p>
+                <p>Swimming</p>
+                <p>Pool</p>
+                <p>Spa</p>
+                <p>Gym</p>
+            </div>
+        </div>
 
+
+        <div class="subscribe">
+            <p>subscribe</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, asperiores voluptatum.</p>
+
+            <br>
+
+            <form action="mailto:muhammdabdullo0204@gmail.com" method="get" target="_blank" class="newsletter-inner">
+                <input name="email" placeholder="Email Address" class="common-input" onfocus="this.placeholder = ''"
+                  onblur="this.placeholder = 'Your email address'" required="" type="email">
+                <button class="button">Send
+                </button>
+              </form>
+        </div>
+
+
+        <div class="subscribe-icons">
+            <img width="30px" height="30px" src="https://img.icons8.com/ios/50/twitter--v1.png" alt="twitter--v1"/>
+            <img width="30px" height="30px" src="https://img.icons8.com/ios/50/facebook--v1.png" alt="facebook--v1"/>
+            <img width="30px" height="30px" src="https://img.icons8.com/ios/50/instagram-new--v1.png" alt="instagram-new--v1"/>
+            <img width="30px" height="30px" src="https://img.icons8.com/ios/50/linkedin.png" alt="linkedin"/>
+        </div>
+
+
+    </div>
+    <p class="creator">Created by Muhammadabdullo</p>
+ </footer>
 
 
 
@@ -59,8 +518,8 @@
 
     <!-- ===============boostrap.js==================== -->
 
-    <script src="js boostrap/bootstrap.js"></script>
-    <script src="js boostrap/bootstrap.min.js"></script>
+    <!-- <script src="js boostrap/bootstrap.js"></script>
+    <script src="js boostrap/bootstrap.min.js"></script> -->
 
         <!-- ===============boostrap.js==================== -->
 
@@ -76,10 +535,12 @@
 
     <!-- ============main-javascript================ -->
 
+    <script src="main2.js"></script>
     <script src="main.js"></script>
 
     <!-- ============main-javascript================ -->
 
 
+   
 </body>
 </html>
